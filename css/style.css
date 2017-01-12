@@ -1,0 +1,37 @@
+li {
+    display: inline-block;
+    width: initial;
+    /* text-align: right; */
+}
+
+* {
+    box-sizing: content-box;
+}
+
+ul {
+    text-align: right;
+    background: lightgreen;
+    padding: 15px;
+}
+
+.welcome {
+    width: 100%;
+}
+
+a {
+    width: inherit;
+    float: left;
+}
+
+h1 {
+    float: right;
+}
+
+img {
+    float: left;
+    width: 500px;
+}
+
+.cats {
+    clear: both;
+}
