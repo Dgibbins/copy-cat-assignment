@@ -1,37 +1,118 @@
-li {
-    display: inline-block;
-    width: initial;
-    /* text-align: right; */
+*{
+  box-sizing: border-box;
 }
-
-* {
-    box-sizing: content-box;
+header {
+    background: limegreen;
+    padding: 27px;
 }
-
+header h1 {
+  margin: -9px auto;
+  color: white;
+  float: left;
+  padding: 0 3px;
+  font-size: 20px;
+  text-align: left;
+}
 ul {
+    float: right;
+    margin: -9px;
     text-align: right;
-    background: lightgreen;
-    padding: 15px;
 }
-
-.welcome {
-    width: 100%;
+ul li {
+    display: inline;
+    transition: rotate(180deg);
+    padding: 0 10px;
 }
-
-a {
-    width: inherit;
-    float: left;
+li {
+    width: initial;
+    display: inline;
+    float: right;
+    font-size: 20px;
 }
-
 h1 {
     float: right;
+    width: 50%;
 }
-
-img {
+section.welcome img {
     float: left;
-    width: 500px;
+    width: 50%;
+}
+section.welcome{
+  background: darkblue;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 30px;
+}
+main.container {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.home-content h1{
+  width: 40%;
+}
+div.home-img img{
+  float: left;
+  width: 60%;
+}
+img{
+  max-width: 100%;
+}
+section.cats{
+  background: tan;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: left;
+}
+section.products{
+  background:grey;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 0 auto;
+  text-align: left;
+}
+div.product-img{
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+#product-img img{
+  border: 2px solid black;
+}
+div.products-wrapper{
+  overflow: hidden;
+}
+div.fun-value{
+  width: 100%;
+  padding: 10px 20px;
+  background: darkblue;
+  color: white;
+  }
+div.fun-value{
+width: 100%;
+overflow: hidden;
 }
 
-.cats {
-    clear: both;
+div.i{
+  width: 30%;
+  float: left;
+  color: red;
+  font-size:large;
 }
+div.fun-content{
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  }
+  div.f-wrapper{
+    padding: 20px;
+  }
+  footer{
+    background: limegreen;
+    padding: 10px;
+    text-align: right;
+    font-size: large;
+  }
